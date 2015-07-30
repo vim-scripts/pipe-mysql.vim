@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5225
+
+MySQL client for Vim 
+Easy-to-use / hassle-free configuration
+
+See https://github.com/NLKNguyen/pipe-mysql.vim for keymaps and more details 
+
+**Features**
+
+* Work with MySQL database at local (with respect to Vim) or at remote machine (via SSH)
+* No need to have MySQL installed at local if you plan to execute MySQL statements at remote machine
+* Edit MySQL script locally, execute at remote machine, and get result back in Vim's Preview window at local
+* Execute a whole MySQL script file, a single line, or a block of MySQL statements
+* Set SSH remote and MySQL access on the fly; or use preset for frequently used login info
+* Each buffer has independent login info to database
+* Easily switch database on the fly
+* Include common queries to operate on the target where the cursor is at
